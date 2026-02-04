@@ -1,0 +1,905 @@
+{
+[
+{
+    "search_metadata": {
+        "id":
+        "698228b8dbb9ffdee210fc4e",
+        "status":
+        "Success",
+        "json_endpoint":
+        "https://serpapi.com/searches/1TBwvStTziC3ZHlLDCFNpQ/698228b8dbb9ffdee210fc4e.json",
+        "created_at":
+        "2026-02-03 16:56:24 UTC",
+        "processed_at":
+        "2026-02-03 16:56:24 UTC",
+        "google_events_url":
+        "https://www.google.com/search?q=Events+in+Austin&ibp=htl;events",
+        "raw_html_file":
+        "https://serpapi.com/searches/1TBwvStTziC3ZHlLDCFNpQ/698228b8dbb9ffdee210fc4e.html",
+        "total_time_taken":
+        1.42
+    },
+    "search_parameters": {
+        "q": "Events in Austin",
+        "engine": "google_events"
+    },
+    "search_information": {
+        "events_results_state": "Results for exact spelling"
+    },
+    "events_results":[
+        {
+            "title": "Kelsey Cook",
+            "date": {
+                "start_date": "Feb 6",
+                "when": "Fri, Feb 6, 7:00 PM – Sat, Feb 7, 1:15 AM"
+            },
+            "address":[
+                "Cap City Comedy Club, 11506 Century Oaks Terrace Unit 100",
+                "Austin, TX"
+            ],
+            "link": "https://www.capcitycomedy.com/shows/340969",
+            "event_location_map":{
+                "image":"https://www.google.com/maps/vt/data=DL06rsR9hBt4UGz1_jUvJSoEmRp0mSwXAlpPK6tlj4p8HltYYGnjMJSG09y_PPrNF7Di42gs_3cu1TdbwN1TOM5oKc_rMBiM1zskqfa4SHsUiMf3hKM",
+                "link":"https://www.google.com/maps/place//data=!4m2!3m1!1s0x8644cbc94682a037:0xdb2a6ffe6a3d26d5?sa=X&ved=2ahUKEwj5hYCP5b2SAxXy6ckDHScmEe4Q9eIBegQIAxAA",
+                "serpapi_link":"https://serpapi.com/search.json?data=%214m2%213m1%211s0x8644cbc94682a037%3A0xdb2a6ffe6a3d26d5&engine=google_maps&google_domain=google.com&hl=en&q=Events+in+Austin&type=place"
+            },
+            "description": "Kelsey Cook is the daughter of an International Yo-Yo Champion and a Professional Foosball player, which made for a humor-filled life at a young age. Kelsey’s stand-up special “The Hustler” can be...",
+            "ticket_info":[
+                { 
+                    "source": "Spotify.com",
+                    "link": "https://open.spotify.com/concert/3JK2rmpAxqEddsf7KZH8dZ",
+                    "link_type": "tickets"
+                },
+                {
+                    "source":
+                    "Tix4cause.com",
+                    "link":
+                    "https://www.tix4cause.com/event/kelsey-cook/7549756",
+                    "link_type":
+                    "tickets"
+                },
+                {
+                    "source":
+                    "Seatengine.com",
+                    "link":
+                    "https://www-capcitycomedy-com.seatengine.com/shows/340968",
+                    "link_type":
+                    "tickets"
+                },
+                {
+                    "source":
+                    "Premiumseatsusa.com",
+                    "link":
+                    "https://www.premiumseatsusa.com/concerts/comedy/kelsey-cook/7549756",
+                    "link_type":
+                    "tickets"
+                },
+                {
+                    "source":
+                    "Cap City Comedy Club",
+                    "link":
+                    "https://www.capcitycomedy.com/shows/340969",
+                    "link_type":
+                    "more info"
+                }
+            ],
+            "venue":
+            {
+                "name":
+                "Cap City Comedy Club",
+                "rating":
+                4.4,
+                "reviews":
+                2414,
+                "link":
+                "https://www.google.com/search?sca_esv=17fe74d01cd78b0f&q=Cap+City+Comedy+Club&ludocid=15792558181822834389&ibp=gwp%3B0,7"
+            },
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT04i3FXpgd64ltwhA536x66zDGKVHQr_FI2W0UZ13QsuZ5H7bPBEOUTIw&s",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdubwMsVHMDXSJXxQS9MbzrORguQsIQlTvSqcriM1j_iNP8w2C7jTljaxLLA&s=10"
+        },
+        {
+            "title":
+            "RiFF RAFF",
+            "date":
+            {
+            "start_date":
+            "Feb 7",
+            "when":
+            "Sat, Feb 7, 7 – 9 PM"
+            },
+            "address":
+            [
+            "Brushy Street Commons, 501 Brushy St",
+            "Austin, TX"
+            ],
+            "link":
+            "https://www.statesman.com/things-to-do/events/?_evDiscoveryPath=/event%2F1037341643n-riff-raff",
+            "event_location_map":
+            {
+            "image":
+            "https://www.google.com/maps/vt/data=7HK2_e6YlZ-G2SuTpnmhn_ZC9jisFGbCyParBt8N_UD0qKT0syWsm5rL6DYZzT1im9IOYdjQyJHfZTMxgBD8sEUOR5IBDt6Br0rtjuEBsYmUY7nQWQA",
+            "link":
+            "https://www.google.com/maps/place//data=!4m2!3m1!1s0x8644b56cb8955077:0xb90732119627e9d9?sa=X&ved=2ahUKEwj5hYCP5b2SAxXy6ckDHScmEe4Q9eIBegQICxAA",
+            "serpapi_link":
+            "https://serpapi.com/search.json?data=%214m2%213m1%211s0x8644b56cb8955077%3A0xb90732119627e9d9&engine=google_maps&google_domain=google.com&hl=en&q=Events+in+Austin&type=place"
+            },
+            "description":
+            "THE OFFiCiAL RiFF RAFF FACEBOOK PAGE twitter.com/JODYHiGHROLLER youtube.com/JODYHiGHROLLER",
+            "ticket_info":
+            [
+            {
+            "source":
+            "Spotify.com",
+            "link":
+            "https://open.spotify.com/concert/3LrcUXqVVH1o1niz43FBTV",
+            "link_type":
+            "tickets"
+            },
+            {
+            "source":
+            "Eventim.us",
+            "link":
+            "https://www.eventim.us/event/riff-raff/673409",
+            "link_type":
+            "tickets"
+            },
+            {
+            "source":
+            "Seetickets.us",
+            "link":
+            "https://wl.seetickets.us/event/riff-raff/673409?afflky=BrushyStreetCommons",
+            "link_type":
+            "tickets"
+            },
+            {
+            "source":
+            "Stubhub.com",
+            "link":
+            "https://www.stubhub.com/_C-43212?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-4571%7Cev-160028422%7Ccy-427&ps_ev=160028422",
+            "link_type":
+            "tickets"
+            },
+            {
+            "source":
+            "Gametime.co",
+            "link":
+            "https://gametime.co/concert/riff-raff-tickets/2-7-2026-austin-tx-the-parish/events/6965653059780209a2310c2c",
+            "link_type":
+            "tickets"
+            }
+            ],
+            "venue":
+            {
+            "name":
+            "Brushy Street Commons",
+            "rating":
+            4.6,
+            "reviews":
+            5,
+            "link":
+            "https://www.google.com/search?sca_esv=17fe74d01cd78b0f&q=Brushy+Street+Commons&ludocid=13332680272968673753&ibp=gwp%3B0,7"
+            },
+            "thumbnail":
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNIOvatvg__ZN-d8GPyRratiwO-dQhVHwziUXe4uDCcMpwVNfHhylqNTo&s",
+            "image":
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNGZrI4cUMdqMetC8XTkbMVGlRAfpUX8PEXzpFFcsCe2hkP72zZZkm8Bqx9g&s=10"
+        },
+        {
+            "title":
+            "Describe the Night",
+            "date":
+            {
+            "start_date":
+            "Feb 3",
+            "when":
+            "Jan 30, 2:00 PM – Feb 22, 10:30 PM"
+            },
+            "address":
+            [
+            "Austin Playhouse, 405 W 22nd St",
+            "Austin, TX"
+            ],
+            "link":
+            "https://universitystar.com/events/?_evDiscoveryPath=/event/125183v-describe-the-night",
+            "event_location_map":
+            {
+            "image":
+            "https://www.google.com/maps/vt/data=QghrdkQ-BxDlpaUm513CmlJRwqfN54PBV-P6V0XtVhwlA7gh1pbYmzeJDCPU07Rge7kC81dI85TZ7wEMVYFx3iseRR3B1FMsv6xcnqNfXXSEmcqKlVo",
+            "link":
+            "https://www.google.com/maps/place//data=!4m2!3m1!1s0x8644ca3eec60d891:0xefc4ae96035abd89?sa=X&ved=2ahUKEwj5hYCP5b2SAxXy6ckDHScmEe4Q9eIBegQIExAA",
+            "serpapi_link":
+            "https://serpapi.com/search.json?data=%214m2%213m1%211s0x8644ca3eec60d891%3A0xefc4ae96035abd89&engine=google_maps&google_domain=google.com&hl=en&q=Events+in+Austin&type=place"
+            },
+            "description":
+            "Every Thursday at 7:30 PM, every Friday at 7:30 PM, every Saturday at 7:30 PM, and every Sunday at 2:00 PM to Feb 22 A gripping historical thriller tracing the blurred line between truth and...",
+            "ticket_info":
+            [
+            {
+            "source":
+            "Austin, TX",
+            "link":
+            "https://www.austintexas.org/event/describe-the-night/392434/",
+            "link_type":
+            "more info"
+            },
+            {
+            "source":
+            "The University Star",
+            "link":
+            "https://universitystar.com/events/?_evDiscoveryPath=/event/125183v-describe-the-night",
+            "link_type":
+            "more info"
+            },
+            {
+            "source":
+            "Austin Monthly Magazine",
+            "link":
+            "https://www.austinmonthly.com/events/describe-the-night/",
+            "link_type":
+            "more info"
+            },
+            {
+            "source":
+            "Do512",
+            "link":
+            "https://do512.com/events/2026/1/30/describe-the-night-tickets",
+            "link_type":
+            "more info"
+            },
+            {
+            "source":
+            "Austin American-Statesman",
+            "link":
+            "https://www.statesman.com/things-to-do/events/?_evDiscoveryPath=/event%2F125183v-describe-the-night",
+            "link_type":
+            "more info"
+            }
+            ],
+            "venue":
+            {
+            "name":
+            "Austin Playhouse",
+            "rating":
+            4.7,
+            "reviews":
+            154,
+            "link":
+            "https://www.google.com/search?sca_esv=17fe74d01cd78b0f&q=Austin+Playhouse&ludocid=17277126029824671113&ibp=gwp%3B0,7"
+            },
+            "thumbnail":
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX-MWKwT_lY8QkYowJcFGNxprXev0eHZlXi3FtfRuf1vUjRRpP9-oEIYk&s",
+            "image":
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRw2zrL3w4pSnmoBKjzpSfBkMLekTrdAdOASCs9OJzXw&s=10"
+        },
+        {
+            "title":
+            "Kelsey Cook",
+            "date":
+            {
+            "start_date":
+            "Feb 7",
+            "when":
+            "Sat, Feb 7, 7 – 11 PM"
+            },
+            "address":
+            [
+            "Cap City Comedy Club, 11506 Century Oaks Terrace Unit 100",
+            "Austin, TX"
+            ],
+            "link":
+            "https://www.capcitycomedy.com/shows/340971",
+            "event_location_map":
+            {
+            "image":
+            "https://www.google.com/maps/vt/data=DL06rsR9hBt4UGz1_jUvJSoEmRp0mSwXAlpPK6tlj4p8HltYYGnjMJSG09y_PPrNF7Di42gs_3cu1TdbwN1TOM5oKc_rMBiM1zskqfa4SHsUiMf3hKM",
+            "link":
+            "https://www.google.com/maps/place//data=!4m2!3m1!1s0x8644cbc94682a037:0xdb2a6ffe6a3d26d5?sa=X&ved=2ahUKEwj5hYCP5b2SAxXy6ckDHScmEe4Q9eIBegQIGxAA",
+            "serpapi_link":
+            "https://serpapi.com/search.json?data=%214m2%213m1%211s0x8644cbc94682a037%3A0xdb2a6ffe6a3d26d5&engine=google_maps&google_domain=google.com&hl=en&q=Events+in+Austin&type=place"
+            },
+            "description":
+            "Kelsey Cook is the daughter of an International Yo-Yo Champion and a Professional Foosball player, which made for a humor-filled life at a young age. Kelsey’s stand-up special “The Hustler” can be...",
+            "ticket_info":[
+                {
+                "source":
+                "Spotify.com",
+                "link":
+                "https://open.spotify.com/concert/1RT1rOynl3RVd9GFL0O32p",
+                "link_type":
+                "tickets"
+                },
+                {
+                "source":
+                "Tix4cause.com",
+                "link":
+                "https://www.tix4cause.com/event/kelsey-cook/7549759",
+                "link_type":
+                "tickets"
+                },
+                {
+                "source":
+                "Seatengine.com",
+                "link":
+                "https://www-capcitycomedy-com.seatengine.com/shows/340970",
+                "link_type":
+                "tickets"
+                },
+                {
+                "source":
+                "Cap City Comedy Club",
+                "link":
+                "https://www.capcitycomedy.com/shows/340971",
+                "link_type":
+                "more info"
+                },
+                {
+                "source":
+                "Liberty Hill Independent",
+                "link":
+                "https://www.lhindependent.com/local-events/?_evDiscoveryPath=/event/107679580n-kelsey-cook",
+                "link_type":
+                "more info"
+                }
+            ],
+            "venue": {
+            "name":
+            "Cap City Comedy Club",
+            "rating":
+            4.4,
+            "reviews":
+            2414,
+            "link":
+            "https://www.google.com/search?sca_esv=17fe74d01cd78b0f&q=Cap+City+Comedy+Club&ludocid=15792558181822834389&ibp=gwp%3B0,7"
+            },
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT04i3FXpgd64ltwhA536x66zDGKVHQr_FI2W0UZ13QsuZ5H7bPBEOUTIw&s",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdubwMsVHMDXSJXxQS9MbzrORguQsIQlTvSqcriM1j_iNP8w2C7jTljaxLLA&s=10"
+        },
+        {
+            "title":
+            "The Sound of Music",
+            "date":
+            {
+            "start_date":
+            "Feb 3",
+            "when":
+            "Tue, Feb 3, 7:30 PM – Sun, Feb 8, 12:00 AM"
+            },
+            "address":
+            [
+            "Bass Concert Hall, 2350 Robert Dedman Dr",
+            "Austin, TX"
+            ],
+            "link":
+            "https://universitystar.com/events/?_evDiscoveryPath=/event/124174v-the-sound-of-music",
+            "event_location_map":
+            {
+            "image":
+            "https://www.google.com/maps/vt/data=pAjRMm7fFfVhXgB1VKvpNScC8NPi_qB76tGKb1uewTOFPqb_Ze9jODQ_o-MS9Lw5AW2EOxfrbxevrgtT0HmpUM-YBv0omWzJYBdgCd4sfIuVw9W32E4",
+            "link":
+            "https://www.google.com/maps/place//data=!4m2!3m1!1s0x8644b590062b53fd:0x1b2142c252e84095?sa=X&ved=2ahUKEwj5hYCP5b2SAxXy6ckDHScmEe4Q9eIBegQIIxAA",
+            "serpapi_link":
+            "https://serpapi.com/search.json?data=%214m2%213m1%211s0x8644b590062b53fd%3A0x1b2142c252e84095&engine=google_maps&google_domain=google.com&hl=en&q=Events+in+Austin&type=place"
+            },
+            "description":
+            "Occurring on: Feb 3 at 7:30 PM Feb 4 at 7:30 PM Feb 5 at 7:30 PM Feb 6 at 8:00 PM Feb 7 at 2:00 PM Feb 7 at 8:00 PM Feb 8 at 1:00 PM Feb 8 at 6:30 PM 'For 65 years, THE SOUND OF MUSIC has been one...'",
+            "ticket_info":
+            [
+            {
+                "source":
+                "The University Star",
+                "link":
+                "https://universitystar.com/events/?_evDiscoveryPath=/event/124174v-the-sound-of-music",
+                "link_type":
+                "more info"
+            }
+            ]
+        },
+        {
+            "source":
+            "Austin Monthly Magazine",
+            "link":
+            "https://www.austinmonthly.com/events/the-sound-of-music-2/",
+            "link_type":
+            "more info"
+        },
+        {
+            "source":
+            "Do512",
+            "link":
+            "https://do512.com/events/2026/2/3/the-sound-of-music-tickets",
+            "link_type":
+            "more info"
+        },
+        {
+            "source":
+            "AARP Local",
+            "link":
+            "https://local.aarp.org/event/sound-of-music-touring-2026-02-03-tm-austin-tx.html",
+            "link_type":
+            "more info"
+        },
+        {
+            "source":
+            "Austin American-Statesman",
+            "link":
+            "https://www.statesman.com/things-to-do/events/?_evDiscoveryPath=/event%2F41362675t-sound-of-music-touring-",
+            "link_type":
+            "more info"
+        }
+    ],
+    "venue":{
+        "name":
+        "Bass Concert Hall",
+        "rating":
+        4.6,
+        "reviews":
+        3108,
+        "link":
+        "https://www.google.com/search?sca_esv=17fe74d01cd78b0f&q=Bass+Concert+Hall&ludocid=1954917115637547157&ibp=gwp%3B0,7"
+    },
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-oJGmqDVWVYo0RDGPfnqROsBF5mq9Tfp1qjlvgeZm1rKkey2vSOybXuo&s",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHumwkaijfBD_8l9342Fw279GxF9_WnlzuskGeUacgM_IkQfrRZZQGuMzjIQ&s=10"
+},
+
+
+
+
+
+
+{
+    "title":
+    "Monster Energy Outbreak Tour Presents: Vincent Mason There I Go",
+    "date":
+    {
+    "start_date":
+    "Feb 6",
+    "when":
+    "Fri, Feb 6, 7 – 9 PM"
+    },
+    "address":
+    [
+    "Emo's Austin, 2015 E Riverside Dr",
+    "Austin, TX"
+    ],
+    "link":
+    "https://www.statesman.com/things-to-do/events/?_evDiscoveryPath=/event%2F1202621s-vincent-mason",
+    "event_location_map":
+    {
+    "image":
+    "https://www.google.com/maps/vt/data=8aFocp_PEYhC0sGEgQQ6gDL0muvgJ1Uyx26Khn_N5wC9Ot_DqcDmcZyh4Ai_U1ajrNVFts_Z-vL_p3jzUHQJ4K6a_NxKGISHZFGStDyhcXIOkDzzY1c",
+    "link":
+    "https://www.google.com/maps/place//data=!4m2!3m1!1s0x8644b5a66fe83edd:0x418020673456eede?sa=X&ved=2ahUKEwj5hYCP5b2SAxXy6ckDHScmEe4Q9eIBegQIKxAA",
+    "serpapi_link":
+    "https://serpapi.com/search.json?data=%214m2%213m1%211s0x8644b5a66fe83edd%3A0x418020673456eede&engine=google_maps&google_domain=google.com&hl=en&q=Events+in+Austin&type=place"
+    },
+    "description":
+    "“Expansive artistry framed by relatable storytelling and warm sonics” (Earmilk) Vincent Mason has honed his craft for songwriting since grabbing a guitar just a few short years ago. Growing up...",
+    "ticket_info":
+    [
+    {
+    "source":
+    "Spotify.com",
+    "link":
+    "https://open.spotify.com/concert/70RmBAJLg1OvVQDDqiPSU4",
+    "link_type":
+    "tickets"
+    },
+    {
+    "source":
+    "Tix4cause.com",
+    "link":
+    "https://www.tix4cause.com/event/vincent-mason/7514531",
+    "link_type":
+    "tickets"
+    },
+    {
+    "source":
+    "Ticketmaster.com",
+    "link":
+    "https://ticketmaster.evyy.net/c/253185/264167/4272?SharedId=DoStuff&u=https%3A%2F%2Fwww.ticketmaster.com%2Fmonster-energy-outbreak-tour-presents-vincent-austin-texas-02-06-2026%2Fevent%2F3A00634FDBB7887E%3Futm_medium%3Daffiliate%26fbclid%3DIwY2xjawNombVleHRuA2FlbQIxMABicmlkETExZWV5d3JmTjRHTmFFSEFSAR5uY5vUb-0X5PDMH1-zRlCOYU1D1iOW-sGRljwPCv8Aa7f",
+    "link_type":
+    "tickets"
+    },
+    {
+    "source":
+    "Festivaly.eu",
+    "link":
+    "https://festivaly.eu/en/monster-energy-outbreak-tour-presents-vincent-mason-there-i-go-emos-austin-austin-2026",
+    "link_type":
+    "tickets"
+    },
+    {
+    "source":
+    "Prked.com",
+    "link":
+    "https://prked.com/event/monster-energy-outbreak-tour-presents-vincent-mason-there-i-go-parking-austin-emos-austin-02-06-2026/G5dIZbVThcz-X",
+    "link_type":
+    "tickets"
+    }
+    ],
+    "venue":
+    {
+    "name":
+    "Emo's Austin",
+    "rating":
+    4.4,
+    "reviews":
+    2179,
+    "link":
+    "https://www.google.com/search?sca_esv=17fe74d01cd78b0f&q=Emo%27s+Austin&ludocid=4719808037116112606&ibp=gwp%3B0,7"
+    },
+    "thumbnail":
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN4nQp2nMRRkYxvbWTMuMLmjmJsf6cJcCNQEBZJapdowrh3C4R7AM1xcM&s",
+    "image":
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMcCQ16wkXYltLIu2bUSt1XrFeNgxBHjhqSKQ5FIgtdkxrZtSTm_AZs84F8Q&s=10"
+},
+
+
+
+
+
+{
+    "title":
+    "Sam Harris",
+    "date":
+    {
+    "start_date":
+    "Feb 5",
+    "when":
+    "Thu, Feb 5, 7:30 – 9:30 PM"
+    },
+    "address":
+    [
+    "Austin City Limits Live (ACL Live & 3TEN ACL Live), 310 W Willie Nelson Blvd",
+    "Austin, TX"
+    ],
+    "link":
+    "https://local.aarp.org/event/sam-harris-truth-consequences-2026-02-05-tm-austin-tx.html",
+    "event_location_map":
+    {
+    "image":
+    "https://www.google.com/maps/vt/data=Jakuxgic4ohX49jvbUlQPiA0qc4lGedm-_SJ4qSdfoRkaAv83xhZWoEukMS-GPAxniJIwZTZao7xRTbMFQhcrZ2Aqlomx3KIcoY7-mK1kaUggUH3LlI",
+    "link":
+    "https://www.google.com/maps/place//data=!4m2!3m1!1s0x8644b50f4ba81beb:0x491ca08c71e16697?sa=X&ved=2ahUKEwj5hYCP5b2SAxXy6ckDHScmEe4Q9eIBegQIMxAA",
+    "serpapi_link":
+    "https://serpapi.com/search.json?data=%214m2%213m1%211s0x8644b50f4ba81beb%3A0x491ca08c71e16697&engine=google_maps&google_domain=google.com&hl=en&q=Events+in+Austin&type=place"
+    },
+    "description":
+    "Attend the Sam Harris: Truth & Consequences event in Austin, TX at the Austin City Limits Live at The Moody Theater, in Austin located at 310 Willie Nelson Boulevard. The event starts at 7:30 P.M...",
+    "ticket_info":
+    [
+    {
+    "source":
+    "Spotify.com",
+    "link":
+    "https://open.spotify.com/concert/6Hhx8V08C9Bq9pSyGNLDIv",
+    "link_type":
+    "tickets"
+    },
+    {
+    "source":
+    "Tix4cause.com",
+    "link":
+    "https://www.tix4cause.com/event/sam-harris/7505848",
+    "link_type":
+    "tickets"
+    },
+    {
+    "source":
+    "Ticketmaster.com",
+    "link":
+    "https://ticketmaster.evyy.net/c/6580072/271177/4272?u=https%3A%2F%2Fwww.axs.com%2Fevents%2F1183945%2Fsam-harris-tickets%3Fskin%3Dacllive&utm_medium=affiliate",
+    "link_type":
+    "tickets"
+    },
+    {
+    "source":
+    "Premiumseatsusa.com",
+    "link":
+    "https://www.premiumseatsusa.com/concerts/pop-rock/sam-harris/7505848",
+    "link_type":
+    "tickets"
+    },
+    {
+    "source":
+    "Prked.com",
+    "link":
+    "https://prked.com/event/sam-harris-parking-austin-moody-theater-02-05-2026/G5dIZbg5IC1ph",
+    "link_type":
+    "tickets"
+    }
+    ],
+    "venue":
+    {
+    "name":
+    "Austin City Limits Live (ACL Live & 3TEN ACL Live)",
+    "rating":
+    4.7,
+    "reviews":
+    4455,
+    "link":
+    "https://www.google.com/search?sca_esv=17fe74d01cd78b0f&q=Austin+City+Limits+Live+(ACL+Live+%26+3TEN+ACL+Live)&ludocid=5268262189183100567&ibp=gwp%3B0,7"
+    },
+    "thumbnail":
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfv-4VbeCsQYdx0tjDae8UYvwXA4y-ULAYrgB4zQmDwmBCNhLBboGg4Bs&s",
+    "image":
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB0wv6kESYdiKQxD4R9dYPt9A-6loxFF5T6UiawZdz3p3QQ2Xm-0JRUMjD_w&s=10"
+},
+
+
+
+
+
+{
+    "title":
+    "HAFFWAY",
+    "date":
+    {
+    "start_date":
+    "Feb 8",
+    "when":
+    "Sun, Feb 8, 8 – 10 PM"
+    },
+    "address":
+    [
+    "Antone's Nightclub, 305 E 5th St.",
+    "Austin, TX"
+    ],
+    "link":
+    "https://open.spotify.com/concert/1gAqrsDLtRwLN1cerPE12k",
+    "event_location_map":
+    {
+    "image":
+    "https://www.google.com/maps/vt/data=wJxZY1yzabdXo2CPNtim_lqdX-Q8xzWkyssqUarlKi2mivT3yqEnMarz80fGHQq2XhQc4KEM-SxYOtj6jNPF_O4ck_fUldsOgucvv6BupRjzq5rsWgQ",
+    "link":
+    "https://www.google.com/maps/place//data=!4m2!3m1!1s0x8644b5091bd69d65:0x945d683a5e34b71f?sa=X&ved=2ahUKEwj5hYCP5b2SAxXy6ckDHScmEe4Q9eIBegQIOxAA",
+    "serpapi_link":
+    "https://serpapi.com/search.json?data=%214m2%213m1%211s0x8644b5091bd69d65%3A0x945d683a5e34b71f&engine=google_maps&google_domain=google.com&hl=en&q=Events+in+Austin&type=place"
+    },
+    "description":
+    "Find tickets for HAFFWAY at Antone's Nightclub in Austin on 2/8/2026 at 8:00 PM",
+    "ticket_info":
+    [
+    {
+    "source":
+    "Spotify.com",
+    "link":
+    "https://open.spotify.com/concert/1gAqrsDLtRwLN1cerPE12k",
+    "link_type":
+    "tickets"
+    },
+    {
+    "source":
+    "Tix4cause.com",
+    "link":
+    "https://www.tix4cause.com/event/haffway/7527498",
+    "link_type":
+    "tickets"
+    },
+    {
+    "source":
+    "Tixel.com",
+    "link":
+    "https://tixel.com/us/music-tickets/2026/02/08/haffway-the-wither-tour",
+    "link_type":
+    "tickets"
+    },
+    {
+    "source":
+    "Ticketmaster.com",
+    "link":
+    "https://ticketmaster.evyy.net/c/253185/264167/4272?SharedId=DoStuff&u=https%3A%2F%2Fwww.ticketmaster.com%2Fhaffway-the-wither-tour-w-ryman-austin-texas-02-08-2026%2Fevent%2F3A006353E60F8122",
+    "link_type":
+    "tickets"
+    },
+    {
+    "source":
+    "Seatgeek.com",
+    "link":
+    "https://seatgeek.com/haffway-tickets/austin-texas-antone-s-nightclub-2026-02-08-8-pm/concert/17870349?gclsrc=%7BGOOGLE-ADS-CLICK-SOURCE%7D&refob=mta&ref_price=27.96",
+    "link_type":
+    "tickets"
+    }
+    ],
+    "venue":
+    {
+    "name":
+    "Antone's Nightclub",
+    "rating":
+    4.5,
+    "reviews":
+    1771,
+    "link":
+    "https://www.google.com/search?sca_esv=17fe74d01cd78b0f&q=Antone%27s+Nightclub&ludocid=10690815690345330463&ibp=gwp%3B0,7"
+    },
+    "thumbnail":
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVOzX-YUbmN9x4miY-hlDoPLZoCNxhqi5fLm2JRaEkBCKthP5qjrfuizQ&s",
+    "image":
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREC1-DdhwBetRjHzAliX2pz_Xgksfa4o5IC3yrtAmNfINwYcTu3zlolSxO9w&s=10"
+},
+
+
+
+
+
+{
+    "title":
+    "Layton Giordani (18+ Event)",
+    "date":
+    {
+    "start_date":
+    "Feb 6",
+    "when":
+    "Fri, Feb 6, 7 – 11 PM"
+    },
+    "address":
+    [
+    "The Concourse Project, 8509 Burleson Rd",
+    "Austin, TX"
+    ],
+    "link":
+    "https://www.eventticketscenter.com/layton-giordani-austin-02-06-2026/7583956/t",
+    "event_location_map":
+    {
+    "image":
+    "https://www.google.com/maps/vt/data=tE5YNtsmmZgonT8MpBjhnAM2aisnQqPAgdHbxW3ttowwR158SWpkBCJrxOQIVcQ2xhTbGvWJAw422-QdsVUeN1mRJprFy6TiLq81-L4kdJ6_yajRkhw",
+    "link":
+    "https://www.google.com/maps/place//data=!4m2!3m1!1s0x8644b1316e46d40b:0x8c69c5b81db8e737?sa=X&ved=2ahUKEwj5hYCP5b2SAxXy6ckDHScmEe4Q9eIBegQIQxAA",
+    "serpapi_link":
+    "https://serpapi.com/search.json?data=%214m2%213m1%211s0x8644b1316e46d40b%3A0x8c69c5b81db8e737&engine=google_maps&google_domain=google.com&hl=en&q=Events+in+Austin&type=place"
+    },
+    "description":
+    "Layton Giordani is coming to The Concourse Project in Austin, TX for an unforgettable event",
+    "ticket_info":
+    [
+    {
+    "source":
+    "Spotify.com",
+    "link":
+    "https://open.spotify.com/concert/4f3yOvuXtacPCEKXXI4Z0t",
+    "link_type":
+    "tickets"
+    },
+    {
+    "source":
+    "Tix4cause.com",
+    "link":
+    "https://www.tix4cause.com/event/layton-giordani/7583956",
+    "link_type":
+    "tickets"
+    },
+    {
+    "source":
+    "Eventim.us",
+    "link":
+    "https://wl.eventim.us/event/Layton-Giordani-Extended-Set-at-The-Concourse-Project/668470?afflky=TheConcourseProject",
+    "link_type":
+    "tickets"
+    },
+    {
+    "source":
+    "Premiumseatsusa.com",
+    "link":
+    "https://www.premiumseatsusa.com/concerts/techno-electronic/layton-giordani/7583956",
+    "link_type":
+    "tickets"
+    },
+    {
+    "source":
+    "Seetickets.us",
+    "link":
+    "https://wl.seetickets.us/event/Layton-Giordani-Extended-Set-at-The-Concourse-Project/668470?afflky=TheConcourseProject",
+    "link_type":
+    "tickets"
+    }
+    ],
+    "venue":
+    {
+    "name":
+    "The Concourse Project",
+    "rating":
+    4.5,
+    "reviews":
+    1315,
+    "link":
+    "https://www.google.com/search?sca_esv=17fe74d01cd78b0f&q=The+Concourse+Project&ludocid=10117835432427841335&ibp=gwp%3B0,7"
+    },
+    "thumbnail":
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY3-ohEmIB_rVquL6YVJy9fg5MpT8h5O-XeaQ-I5b72CM-BVG2MWh-ZZ4&s",
+    "image":
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDz_nPbtHoq57EMKlnogWh3kPTPIRZ65rcgd-60gItBEgJKPYbOuU4vU16Xg&s=10"
+},
+
+
+
+
+
+{
+    "title":
+    "ELEVATION RHYTHM",
+    "date":
+    {
+    "start_date":
+    "Feb 4",
+    "when":
+    "Wed, Feb 4, 6:30 – 8:30 PM"
+    },
+    "address":
+    [
+    "Emo's Austin, 2015 E Riverside Dr",
+    "Austin, TX"
+    ],
+    "link":
+    "https://universitystar.com/events/?_evDiscoveryPath=/event%2F40943914t-elevation-rhythm-the-goodbye-yesterday-tour",
+    "event_location_map":
+    {
+    "image":
+    "https://www.google.com/maps/vt/data=8aFocp_PEYhC0sGEgQQ6gDL0muvgJ1Uyx26Khn_N5wC9Ot_DqcDmcZyh4Ai_U1ajrNVFts_Z-vL_p3jzUHQJ4K6a_NxKGISHZFGStDyhcXIOkDzzY1c",
+    "link":
+    "https://www.google.com/maps/place//data=!4m2!3m1!1s0x8644b5a66fe83edd:0x418020673456eede?sa=X&ved=2ahUKEwj5hYCP5b2SAxXy6ckDHScmEe4Q9eIBegQISxAA",
+    "serpapi_link":
+    "https://serpapi.com/search.json?data=%214m2%213m1%211s0x8644b5a66fe83edd%3A0x418020673456eede&engine=google_maps&google_domain=google.com&hl=en&q=Events+in+Austin&type=place"
+    },
+    "description":
+    "with Strings & Heart Deluxe Doors: 5:15pm Early Entry Doors: 6:10pm Doors: 6:30pm Show: 7:30pm ELEVATION RHYTHM hits the road for the second leg of their first headlining run - The Goodbye...",
+    "ticket_info":
+    [
+    {
+    "source":
+    "Spotify.com",
+    "link":
+    "https://open.spotify.com/concert/123xw4EjcyNZ2jzOa7fRsa",
+    "link_type":
+    "tickets"
+    },
+    {
+    "source":
+    "Eventbrite.com",
+    "link":
+    "https://www.eventbrite.com/e/elevation-rhythm-world-vision-volunteers-austin-tx-tickets-1978305129898",
+    "link_type":
+    "tickets"
+    },
+    {
+    "source":
+    "Ticketmaster.com",
+    "link":
+    "https://www.ticketmaster.com/elevation-rhythm-the-goodbye-yesterday-tour-austin-texas-02-04-2026/event/3A00635BCB089126?utm_medium=affiliate&fbclid=IwY2xjawOAYZRleHRuA2FlbQIxMABicmlkETFwT2JuQmZFRXZsZDJublV4c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHoUjYNnOM",
+    "link_type":
+    "tickets"
+    },
+    {
+    "source":
+    "Festivaly.eu",
+    "link":
+    "https://festivaly.eu/en/elevation-rhythm-the-goodbye-yesterday-tour-emos-austin-austin-2026",
+    "link_type":
+    "tickets"
+    },
+    {
+    "source":
+    "Seatgeek.com",
+    "link":
+    "https://seatgeek.com/elevation-rhythm-tickets/austin-texas-emo-s-austin-2026-02-04-6-30-pm/concert/17885796?gclsrc=%7BGOOGLE-ADS-CLICK-SOURCE%7D&refob=mta&ref_price=95.74",
+    "link_type":
+    "tickets"
+    }
+    ],
+    "venue":
+    {
+    "name":
+    "Emo's Austin",
+    "rating":
+    4.4,
+    "reviews":
+    2179,
+    "link":
+    "https://www.google.com/search?sca_esv=17fe74d01cd78b0f&q=Emo%27s+Austin&ludocid=4719808037116112606&ibp=gwp%3B0,7"
+    },
+    "thumbnail":
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0hiFXxg3As_eNCmx9rLUPFdQwytq0tvj521nFyqjEdyS7ZUUNh54NXjA&s",
+    "image":
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1t2_ZVECfDjoYdL4n1WSRszPufzR_f1212BefqCc1Z5vHC6J2kIFoOXknxQ&s=10"
+    }
+]
+}
