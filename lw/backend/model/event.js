@@ -6,26 +6,41 @@ const eventSchema = new mongoose.Schema({
         required : true
     },
     date: {
-        type: Date
+        start_Date : Date,
+        when: String
     },
-    time: {
-        type: Date
-    },
-    venue: { type: String },
-    address: { type: String },
+    venue: { 
+        name: String,
+        rating: Number,
+        reviews: Number,
+        link: String
+     },
+    address: [{ type: String }],
     city: { type: String },
+    link: { type: String },
     description : { type: String },
-    category: { type: String },
-    tags: { type: String },
-    images: [{
-        type: { type :String},
+    event_location_map: {
+        image: String,
+        link: String,
+    },
+    ticket_info : {
+        source: String,
+        link: String,
+        link_type: String
+    },
+    image: {
         src: String
-    }],
+    },
     source : { type: String},
     orignalEventURL : { type: String },
     lastScrapedTime : { type : Date },
-    active: { type: Boolean }
+    category: { type: String },
+    tags: { type: String },
+    active: { 
+        type: Boolean,
+        default: true
+    }
 
 }, { timestamps : true });
 
-export default mongoose.Model("Event", eventSchema);
+export default Event = mongoose.model("Event", eventSchema);

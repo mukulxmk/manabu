@@ -2,14 +2,14 @@
 
 import Image from "next/image";
 
-export interface EventCardProps {
+export interface CardProps {
   title: string;
   startDateTime: string;
   venue: string;
   images?: string[];
 }
 
-const Card: React.FC<EventCardProps> = ({
+const Card: React.FC<CardProps> = ({
   title,
   startDateTime,
   venue,
