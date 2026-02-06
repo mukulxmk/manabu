@@ -19,14 +19,9 @@ export default function SignupPage() {
       setError("Passwords do not match");
       return;
     }
-console.log("sign up page-------------------");
 
     try {
       setLoading(true);
-console.log(
-  "HITTING:",
-  `${process.env.NEXT_PUBLIC_API_URL}/api/auth/signup`
-);
 
       const res = await fetch(
         `${process.env.NEXT_PUBLIC_API_URL}/auth`,
@@ -60,6 +55,8 @@ console.log(
     // TODO: Integrate Google Auth (NextAuth / Firebase / OAuth)
     console.log("Signup with Google");
   };
+
+  console.log(process.env.BACKEND_URL)
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50">
@@ -115,7 +112,7 @@ console.log(
 
         {/* Google Signup */}
         <button
-          onClick={handleGoogleSignup}
+          onClick={() => { window.location.href = `http://localhost:5000/auth/google` }}
           className="w-full border py-2 rounded flex items-center justify-center gap-2 hover:bg-gray-100 transition"
         >
           <img
