@@ -1,9 +1,12 @@
-import express from 'express';
+import express from "express";
+import  {googleLogin}  from "../controller/auth/loginWithGoogle.js";
+import { authGoogleController } from "../controller/auth/authGoogleController.js";
+import { googleCallbackController } from "../controller/auth/googleCallback.js";
+
 const router = express.Router();
-import SignUp from '../controller/auth/signup.js';
 
-router.post("/", SignUp);
-
-
+router.get("/google", authGoogleController);
+router.post("/google-login", googleLogin);
+router.post("/google/callback", googleCallbackController)
 
 export default router;

@@ -1,3 +1,5 @@
+'use client';
+
 import Link from "next/link"
 
 export default function Login(){
@@ -24,10 +26,12 @@ export default function Login(){
             {/* Actions */}
             <div className="mt-6 flex items-center justify-between">
             <button
+          onClick={() => { window.location.href = `http://localhost:5000/auth/google` }}
+
                 className="rounded-lg bg-red-500 px-5 py-2 text-white font-medium
                         hover:bg-red-600 transition"
             >
-            <Link href="/" >  
+            <Link href="/events" >  
                 Login
             </Link>
             </button>
