@@ -24,6 +24,6 @@ export const handleGoogleUserController = async (googleUser, res) => {
 
   // STEP 4: Redirect to frontend with token
   res.redirect(
-    `http://localhost:5173/auth/success?token=${token}`
+    `http://localhost:3000/auth/success?token=${token}`
   );
 };

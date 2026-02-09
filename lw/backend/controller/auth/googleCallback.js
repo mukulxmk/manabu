@@ -20,7 +20,7 @@ export const googleCallbackController = async (req, res) => {
           code,
           client_id: process.env.GOOGLE_CLIENT_ID,
           client_secret: process.env.GOOGLE_CLIENT_SECRET,
-          redirect_uri: "http://localhost:3000/auth/google/callback",
+          redirect_uri: "http://localhost:5000/auth/google/callback",
           grant_type: "authorization_code",
         }),
       }
@@ -46,7 +46,7 @@ export const googleCallbackController = async (req, res) => {
     console.log(googleUser);
 
     // We STOP here for now
-    res.json({ googleUser });
+    res.json({ googleUser: googleUser });
   } catch (err) {
     console.error(err);
     res.status(500).json({ message: "Google authentication failed" });
