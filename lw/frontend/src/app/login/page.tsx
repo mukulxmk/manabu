@@ -43,6 +43,19 @@ export default function Login(){
                 Sign Up
             </a>
             </div>
+            {/* Google Signup */}
+            <button
+            onClick={() => { window.location.href = `http://localhost:5000/auth/google` }}
+            className="w-full border py-2 rounded flex items-center justify-center gap-2 hover:bg-gray-100 transition mt-10"
+            >
+            <img
+                src="https://www.svgrepo.com/show/475656/google-color.svg"
+                alt="Google"
+                className="w-5 h-5 text-black"
+            />
+            Login with Google
+            </button>
+
         </div>
         </div>
     )
