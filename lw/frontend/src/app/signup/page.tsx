@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { redirect, useRouter } from "next/navigation";
 
 export default function SignupPage() {
   const [email, setEmail] = useState("");
@@ -10,6 +11,21 @@ export default function SignupPage() {
   const [loading, setLoading] = useState(false);
   const [response, setResponse] = useState<any>(null);
   const [error, setError] = useState("");
+
+  const router = useRouter();
+
+  const handleGoogleRedirect = async () => {
+    const googleAuthUrl =
+    "https://accounts.google.com/o/oauth2/v2/auth" +
+    "?response_type=code" +
+    "&client_id=" + process.env.GOOGLE_CLIENT_ID +
+    "&redirect_uri=" + encodeURIComponent(
+      "http://localhost:5000/auth/google/callback"
+    ) +
+    "&scope=" + encodeURIComponent("openid email profile");
+
+    router.push(googleAuthUrl);
+  }
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -22,9 +38,8 @@ export default function SignupPage() {
 
     try {
       setLoading(true);
-
       const res = await fetch(
-        `${process.env.NEXT_PUBLIC_API_URL}/auth`,
+        `${process.env.BACKEND_URL}/auth`,
         {
           method: "POST",
           headers: {
@@ -51,13 +66,7 @@ export default function SignupPage() {
     // TODO: Call signup API
     console.log({ email, password });
   };
-  const handleGoogleSignup = () => {
-    // TODO: Integrate Google Auth (NextAuth / Firebase / OAuth)
-    console.log("Signup with Google");
-  };
-
-  console.log(process.env.BACKEND_URL)
-
+  console.log("---------------------------",process.env.BACKEND_URL);
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50">
       {( loading? (<p> Loading... </p>) :
@@ -112,7 +121,7 @@ export default function SignupPage() {
 
         {/* Google Signup */}
         <button
-          onClick={() => { window.location.href = `http://localhost:5000/auth/google` }}
+          onClick={handleGoogleRedirect}
           className="w-full border py-2 rounded flex items-center justify-center gap-2 hover:bg-gray-100 transition"
         >
           <img
