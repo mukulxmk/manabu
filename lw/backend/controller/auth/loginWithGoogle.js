@@ -6,6 +6,10 @@ export const googleLogin = async (req, res) => {
   try {
     const { token } = req.body;
 
+    if(req.query.refresh_token_jwt){
+      // LOgin
+    }
+
     const payload = await verifyGoogleToken(token);
 
     const { sub, email, name, picture } = payload;

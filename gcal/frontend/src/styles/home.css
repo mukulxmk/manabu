@@ -1,0 +1,175 @@
+/* COLOR PALETTE */
+:root {
+  --bg: #F2EFEA;
+  --accent: #FC7753;
+  --secondary: #66D7D1;
+  --dark: #403D58;
+  --highlight: #DBD56E;
+}
+
+/* GLOBAL */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.container {
+  background-color: var(--bg);
+  min-height: 100vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+  color: var(--dark);
+  font-family: Arial, sans-serif;
+}
+
+/* -------------------- */
+/* DESKTOP NAVBAR */
+/* -------------------- */
+.navbar {
+  background-color: var(--dark);
+  color: white;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+
+.navbar li {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.navbar li:hover {
+  color: var(--secondary);
+}
+
+/* -------------------- */
+/* HERO SECTION */
+/* -------------------- */
+.hero {
+  text-align: center;
+  padding: 140px 20px;
+  width: 100%;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.cta {
+  padding: 14px 34px;
+  background: var(--accent);
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+.cta:hover {
+  background: var(--secondary);
+}
+
+/* -------------------- */
+/* API FRAME */
+/* -------------------- */
+.api-frame {
+  margin: 60px auto;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.api-frame h2 {
+  text-align: center;
+  font-size: 28px;
+}
+
+.frame-box {
+  background: white;
+  border: 2px solid var(--highlight);
+  border-radius: 12px;
+  padding: 50px;
+  min-height: 200px;
+  font-size: 18px;
+}
+
+/* -------------------- */
+/* FOOTER */
+/* -------------------- */
+.footer {
+  margin-top: auto;
+  background: var(--dark);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* ====================================================== */
+/*                     RESPONSIVE MOBILE STYLES           */
+/* ====================================================== */
+
+@media (max-width: 768px) {
+
+  .navbar {
+    padding: 16px 20px;
+  }
+
+  .navbar ul {
+    gap: 16px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .cta {
+    padding: 12px 26px;
+    font-size: 16px;
+  }
+
+  .api-frame {
+    width: 92%;
+  }
+
+  .frame-box {
+    padding: 30px 20px;
+    font-size: 16px;
+  }
+}
+
+/* For very small devices */
+@media (max-width: 480px) {
+
+  .navbar ul {
+    display: none; /* You can replace this with a mobile menu later */
+  }
+
+  .logo {
+    font-size: 22px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+}
