@@ -8,7 +8,8 @@ const googleUserSchema = new mongoose.Schema({
     type: String,
     default: "google"
   },
-  avatar: String
+  avatar: String,
+  refresh_token_jwt: String
 });
 
 const GoogleUser = mongoose.model("GoogleUser", googleUserSchema);

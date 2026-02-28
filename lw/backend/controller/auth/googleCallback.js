@@ -1,7 +1,8 @@
-import { handleGoogleUserController } from "./googleUserController.js";
+import { handleGoogleUserController } from "./signUpWIthGoogle.js";
 
 export const googleCallbackController = async (req, res) => {
   const code = req.query.code;
+console.log("CODE================================",code);
 
   if (!code) {
     return res.status(400).json({ message: "Missing authorization code" });
@@ -27,8 +28,11 @@ export const googleCallbackController = async (req, res) => {
     );
 
     const tokenData = await tokenResponse.json();
+console.log("TOKEN[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[",tokenData);
 
     const accessToken = tokenData.access_token;
+    console.log("++++++++++++++++++++++++", accessToken);
+    
 
     // STEP 2: Use access token to fetch user info
     const userResponse = await fetch(
@@ -41,6 +45,8 @@ export const googleCallbackController = async (req, res) => {
     );
 
     const googleUser = await userResponse.json();
+    console.log("Google user-------------------------------------------------------------------",googleUser);
+
     await handleGoogleUserController(googleUser, res);
 
     console.log(googleUser);

@@ -1,5 +1,9 @@
+import GoogleUser from "../../model/googleUser.js";
+
 export const authGoogleController = (req, res) => {
-  const googleAuthUrl =
+
+  try {
+    const googleAuthUrl =
     "https://accounts.google.com/o/oauth2/v2/auth" +
     "?response_type=code" +
     "&client_id=" + process.env.GOOGLE_CLIENT_ID +
@@ -8,5 +12,11 @@ export const authGoogleController = (req, res) => {
     ) +
     "&scope=" + encodeURIComponent("openid email profile");
 
+
+
   res.redirect(googleAuthUrl);
+  } catch (error) {
+    
+  }
+
 };
